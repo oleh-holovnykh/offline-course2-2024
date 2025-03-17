@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import tailwindcss from 'tailwindcss';
 
 export default defineConfig({
-  base: "/offline-course-2024",
+  base: "/offline-course2-2024",
   plugins: [
     react()
   ],

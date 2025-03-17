@@ -13,13 +13,11 @@ const Requisites: React.FC = () => {
 
   return (
     <div className='text-left w-max mt-2 mx-auto px-4 text-gray-600' style={{ width: '100vw', maxWidth:'450px', wordWrap: 'break-word' }}>
-    <p className="bg-yellow-100 p-2 inline-block">За модуль</p>
-    <br/>
     ВАЖЛИВО:
     <br/>
-    - Сплата тільки с приватної картки від приватної особи!
+    - Сплата тільки с приватної картки від приватної особи
     <br/>
-    - ПРАВИЛЬНО ВКАЗАТИ  ПРИЗНАЧЕННЯ ПЛАТЕЖУ!
+    - ПРАВИЛЬНО ВКАЗАТИ ПРИЗНАЧЕННЯ ПЛАТЕЖУ
     <br/>
     - Після оплати пришліть, будь ласка, скріншот квитанції 
     <br/><br/>
@@ -37,11 +35,6 @@ const Requisites: React.FC = () => {
     <br />
     🔸Призначення платежу:
     {` "За навчання ${nextGrupDateToPrint}"`} <CopyButton value={`За навчання ${nextGrupDateToPrint}`} /> 
-    <br/>
-    <br/>
-    <p className="bg-yellow-100 p-2 inline-block">За групу практики</p>
-    <br/>
-    5363 5421 0223 6842 <CopyButton value={'5363542102236842'} />
   </div>
   )
 }
